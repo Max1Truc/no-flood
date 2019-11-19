@@ -31,3 +31,5 @@ client.on('message', msg => {
 });
 
 client.login(token);
+
+const httpServ = require("./front.js");
