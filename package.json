@@ -1,0 +1,29 @@
+{
+  "name": "no-flood",
+  "version": "0.0.1",
+  "description": "A Discord bot to prevent flood",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Max1Truc/no-flood.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "flood",
+    "auto"
+  ],
+  "author": "Max1Truc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Max1Truc/no-flood/issues"
+  },
+  "homepage": "https://github.com/Max1Truc/no-flood#readme",
+  "dependencies": {
+    "discord.js": "^11.5.1"
+  }
+}
