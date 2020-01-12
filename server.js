@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   let { guild, author } = msg;
-  if (guild.available) {
+  if (guild && guild.available) {
     if (lastMessages[guild.id]) {
       if (lastMessages[guild.id][author.id]) {
         var last = lastMessages[guild.id][author.id]
